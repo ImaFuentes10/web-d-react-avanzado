@@ -1,5 +1,9 @@
+import { BasicForm } from './components/BasicForm'
+
 export const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <BasicForm />
+    </div>
   )
 }
