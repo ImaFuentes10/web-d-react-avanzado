@@ -2,8 +2,7 @@ import './index.css'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
-import axios from 'axios'
-import { useReducer, useState } from 'react'
+import { useState } from 'react'
 
 const schema = yup.object({
   userInput: yup
