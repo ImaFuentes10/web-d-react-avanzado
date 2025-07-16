@@ -28,9 +28,6 @@ const chatReducer = (state, action) => {
 
 // 2. Provider
 export const ChatProvider = ({ children }) => {
-  /* dispatch({ type: 'ADD_MESSAGE', payload: { from: 'user', text: userPrompt } })
-  dispatch({ type: 'ADD_MESSAGE', payload: { from: 'bot', text: res.data.response } }) */
-
   const [state, dispatch] = useReducer(chatReducer, initialState)
 
   return (
