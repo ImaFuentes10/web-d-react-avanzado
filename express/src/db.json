@@ -2,17 +2,10 @@
   "action": [
     {
       "id": 1,
-      "title": "Mission: Impossible – Rogue Nation",
+      "title": "Mission Impossible: Rogue Nation",
       "year": 2015,
       "country": "USA",
       "director": "Christopher McQuarrie"
-    },
-    {
-      "id": 2,
-      "title": "Die Hard",
-      "year": 1988,
-      "country": "USA",
-      "director": "John McTiernan"
     },
     {
       "id": 3,
@@ -20,25 +13,32 @@
       "year": 2015,
       "country": "Australia/USA",
       "director": "George Miller"
+    },
+    {
+      "id": 4,
+      "title": "Back to the Future",
+      "year": 1985,
+      "country": "USA",
+      "director": "Marthy Mcfly"
     }
   ],
   "comedy": [
     {
-      "id": 4,
+      "id": 1,
       "title": "Superbad",
       "year": 2007,
       "country": "USA",
       "director": "Greg Mottola"
     },
     {
-      "id": 5,
+      "id": 2,
       "title": "Role Models",
       "year": 2008,
       "country": "USA",
       "director": "David Wain"
     },
     {
-      "id": 6,
+      "id": 3,
       "title": "La La Land",
       "year": 2016,
       "country": "USA",
