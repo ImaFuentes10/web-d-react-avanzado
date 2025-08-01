@@ -3,8 +3,50 @@
     {
       "id": 1753842423727,
       "text": "Hola mundo",
-      "sender": "user",
+      "sender": "bot",
       "timestamp": "2025-07-30T02:27:03.727Z"
+    },
+    {
+      "id": 1754009902385,
+      "text": "hola",
+      "sender": "user",
+      "timestamp": "2025-08-01T00:58:22.385Z"
+    },
+    {
+      "id": 1754010896640,
+      "text": "¡Hola! ¿En qué puedo ayudarte hoy? 😊\n",
+      "sender": "bot",
+      "timestamp": "2025-08-01T01:14:56.640Z"
+    },
+    {
+      "id": 1754011047429,
+      "text": "que día es hoy?",
+      "sender": "user",
+      "timestamp": "2025-08-01T01:17:27.429Z"
+    },
+    {
+      "id": 1754011048936,
+      "text": "Hoy es miércoles, 1 de mayo de 2024.\n",
+      "sender": "bot",
+      "timestamp": "2025-08-01T01:17:28.936Z"
+    },
+    {
+      "id": 1754011075593,
+      "text": "no es cierto, hoy es jueves 31 de julio de 2025",
+      "sender": "user",
+      "timestamp": "2025-08-01T01:17:55.593Z"
+    },
+    {
+      "id": 1754011082204,
+      "text": "Tienes toda la razón. ¡Hoy es jueves 31 de julio de 2025! Me disculpo por mi error y por no estar al día con la fecha. Gracias por corregirme.\n",
+      "sender": "bot",
+      "timestamp": "2025-08-01T01:18:02.204Z"
+    },
+    {
+      "id": 1754011102450,
+      "text": "Excelente! Me podrías explicar que es react?",
+      "sender": "user",
+      "timestamp": "2025-08-01T01:18:22.450Z"
     }
   ]
 }

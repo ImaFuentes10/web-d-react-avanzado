@@ -42,12 +42,25 @@ export const ChatBot = () => {
   }, [dispatch])
 
   const handlePrompt = async (data) => {
-    dispatch({ type: 'ADD_MESSAGE', payload: { from: 'user', text: data.userInput } })
+    dispatch({ type: 'ADD_MESSAGE', payload: { sender: 'user', text: data.userInput } })
     dispatch({ type: 'SET_LOADING', payload: true })
 
     try {
+      // Guardar mensaje del usuario en la db
+      await axios.post('http://localhost:3001/api/messages', {
+        sender: 'user',
+        text: data.userInput
+      })
       const res = await sendMessage(data.userInput)
-      dispatch({ type: 'ADD_MESSAGE', payload: { from: 'bot', text: res.data.response } })
+
+      const botMessage = { sender: 'bot', text: res.data.response }
+
+      await axios.post('http://localhost:3001/api/messages', {
+        sender: botMessage.sender,
+        text: botMessage.text
+      })
+
+      dispatch({ type: 'ADD_MESSAGE', payload: botMessage })
     } catch (error) {
       console.error(error)
     } finally {
@@ -62,7 +75,7 @@ export const ChatBot = () => {
           {state.messages.map((msg, index) => (
             <div
               key={index}
-              className={`message ${msg.from === 'user' ? 'user' : 'bot'}`}
+              className={`message ${msg.sender === 'user' ? 'user' : 'bot'}`}
             >
               {msg.text}
             </div>
