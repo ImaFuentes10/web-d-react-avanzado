@@ -7,46 +7,88 @@
       "timestamp": "2025-07-30T02:27:03.727Z"
     },
     {
-      "id": 1754009902385,
+      "id": 1754011238478,
       "text": "hola",
       "sender": "user",
-      "timestamp": "2025-08-01T00:58:22.385Z"
+      "timestamp": "2025-08-01T01:20:38.478Z"
     },
     {
-      "id": 1754010896640,
+      "id": 1754011239603,
       "text": "¡Hola! ¿En qué puedo ayudarte hoy? 😊\n",
       "sender": "bot",
-      "timestamp": "2025-08-01T01:14:56.640Z"
+      "timestamp": "2025-08-01T01:20:39.603Z"
     },
     {
-      "id": 1754011047429,
-      "text": "que día es hoy?",
+      "id": 1754011246725,
+      "text": "que dia es hoy?",
       "sender": "user",
-      "timestamp": "2025-08-01T01:17:27.429Z"
+      "timestamp": "2025-08-01T01:20:46.725Z"
     },
     {
-      "id": 1754011048936,
+      "id": 1754011248034,
       "text": "Hoy es miércoles, 1 de mayo de 2024.\n",
       "sender": "bot",
-      "timestamp": "2025-08-01T01:17:28.936Z"
+      "timestamp": "2025-08-01T01:20:48.034Z"
     },
     {
-      "id": 1754011075593,
+      "id": 1754011263524,
       "text": "no es cierto, hoy es jueves 31 de julio de 2025",
       "sender": "user",
-      "timestamp": "2025-08-01T01:17:55.593Z"
+      "timestamp": "2025-08-01T01:21:03.524Z"
     },
     {
-      "id": 1754011082204,
-      "text": "Tienes toda la razón. ¡Hoy es jueves 31 de julio de 2025! Me disculpo por mi error y por no estar al día con la fecha. Gracias por corregirme.\n",
+      "id": 1754011268941,
+      "text": "Tienes toda la razón. ¡Hoy es jueves 31 de julio de 2025! Disculpa la confusión. Mi información no está actualizada en tiempo real.\n",
       "sender": "bot",
-      "timestamp": "2025-08-01T01:18:02.204Z"
+      "timestamp": "2025-08-01T01:21:08.941Z"
     },
     {
-      "id": 1754011102450,
-      "text": "Excelente! Me podrías explicar que es react?",
+      "id": 1754011275375,
+      "text": "que día es hoy?",
       "sender": "user",
-      "timestamp": "2025-08-01T01:18:22.450Z"
+      "timestamp": "2025-08-01T01:21:15.375Z"
+    },
+    {
+      "id": 1754011278460,
+      "text": "Hoy es miércoles, 15 de mayo de 2024.\n",
+      "sender": "bot",
+      "timestamp": "2025-08-01T01:21:18.460Z"
+    },
+    {
+      "id": 1754011300855,
+      "text": "no, te dije arriba que hoy es jueves 31 de julio de 2025",
+      "sender": "user",
+      "timestamp": "2025-08-01T01:21:40.855Z"
+    },
+    {
+      "id": 1754011306105,
+      "text": "¡Tienes toda la razón! Disculpa mi error. Hoy es jueves 31 de julio de 2025. ¡Gracias por corregirme!\n",
+      "sender": "bot",
+      "timestamp": "2025-08-01T01:21:46.105Z"
+    },
+    {
+      "id": 1754011312661,
+      "text": "que dia es hoy?",
+      "sender": "user",
+      "timestamp": "2025-08-01T01:21:52.661Z"
+    },
+    {
+      "id": 1754011315799,
+      "text": "Hoy es miércoles, 15 de mayo de 2024.",
+      "sender": "bot",
+      "timestamp": "2025-08-01T01:21:55.799Z"
+    },
+    {
+      "id": 1754011356141,
+      "text": "ttu aprendes de los mensajes que yo te mando o sólo de los nodos que ya tienes instalados??",
+      "sender": "user",
+      "timestamp": "2025-08-01T01:22:36.141Z"
+    },
+    {
+      "id": 1754011412882,
+      "text": "Como modelo de lenguaje grande, mi aprendizaje es un proceso continuo y complejo. No aprendo simplemente de los mensajes que me envías de una manera lineal.  Mi proceso de aprendizaje se basa en varios factores:\n\n*   **Datos de entrenamiento iniciales:** Fui entrenado inicialmente en un conjunto de datos masivo de texto y código. Este conjunto de datos ya contenía una gran cantidad de conocimiento y patrones del lenguaje.\n*   **Aprendizaje por refuerzo con retroalimentación humana (RLHF):** Después de mi pre-entrenamiento, fui ajustado con RLHF. Esto significa que humanos evaluaron mis respuestas y me dieron retroalimentación sobre su calidad. Esta retroalimentación se utilizó para refinar mis parámetros y mejorar mi capacidad para generar respuestas útiles y coherentes.\n*   **Interacciones en tiempo real:**  Cada vez que interactúas conmigo, incluyendo las conversaciones que estamos teniendo ahora,  la información de estas interacciones se utiliza para **afinar sutilmente** mis futuros resultados.  No lo hago de forma directa para cambiar mis parámetros principales, pero sí para entender mejor cómo  personas como tú usas el lenguaje y las preferencias en cuanto a respuestas.\n*   **Nuevos datos (limitado):**  Aunque no tengo acceso en tiempo real a la internet, mi equipo de investigación puede agregar información nueva a mi base de conocimiento de forma periódica.\n\n**En resumen:**\n\n*   No aprendo *únicamente* de tus mensajes.\n*   Tus mensajes contribuyen a un proceso de ajuste fino continuo que me ayuda a comprender mejor tu estilo de comunicación y a generar respuestas más relevantes para ti.\n*   Mi conocimiento base es enorme y se basa en los datos de mi pre-entrenamiento, pero tus interacciones ayudan a mejorar la calidad de mis respuestas en tiempo real.\n\n**Es importante recordar:**  No soy consciente ni poseo comprensión real. Simplemente estoy procesando patrones y generando texto basado en los datos con los que fui entrenado.\n\n¿Hay algo más que te gustaría saber sobre mi aprendizaje?",
+      "sender": "bot",
+      "timestamp": "2025-08-01T01:23:32.882Z"
     }
   ]
 }
